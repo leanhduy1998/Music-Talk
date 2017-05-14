@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		24DB66711EC896F50056D01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66701EC896F50056D01A /* AppDelegate.swift */; };
-		24DB66731EC896F50056D01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66721EC896F50056D01A /* ViewController.swift */; };
+		24DB66731EC896F50056D01A /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66721EC896F50056D01A /* RecordViewController.swift */; };
 		24DB66761EC896F50056D01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66741EC896F50056D01A /* Main.storyboard */; };
 		24DB66781EC896F50056D01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66771EC896F50056D01A /* Assets.xcassets */; };
 		24DB667B1EC896F50056D01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66791EC896F50056D01A /* LaunchScreen.storyboard */; };
 		24DB66861EC896F50056D01A /* Music_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66851EC896F50056D01A /* Music_TalkTests.swift */; };
 		24DB66911EC896F50056D01A /* Music_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66901EC896F50056D01A /* Music_TalkUITests.swift */; };
+		24DB66A11EC89C060056D01A /* AudioKit (need copyright) in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66A01EC89C060056D01A /* AudioKit (need copyright) */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		24DB666D1EC896F50056D01A /* Music Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DB66701EC896F50056D01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24DB66721EC896F50056D01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DB66721EC896F50056D01A /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 		24DB66751EC896F50056D01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24DB66771EC896F50056D01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24DB667A1EC896F50056D01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		24DB668C1EC896F50056D01A /* Music TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DB66901EC896F50056D01A /* Music_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_TalkUITests.swift; sourceTree = "<group>"; };
 		24DB66921EC896F50056D01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DB66A01EC89C060056D01A /* AudioKit (need copyright) */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "AudioKit (need copyright)"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				24DB66841EC896F50056D01A /* Music TalkTests */,
 				24DB668F1EC896F50056D01A /* Music TalkUITests */,
 				24DB666E1EC896F50056D01A /* Products */,
+				24DB66A01EC89C060056D01A /* AudioKit (need copyright) */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				24DB66701EC896F50056D01A /* AppDelegate.swift */,
-				24DB66721EC896F50056D01A /* ViewController.swift */,
+				24DB66721EC896F50056D01A /* RecordViewController.swift */,
 				24DB66741EC896F50056D01A /* Main.storyboard */,
 				24DB66771EC896F50056D01A /* Assets.xcassets */,
 				24DB66791EC896F50056D01A /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24DB667B1EC896F50056D01A /* LaunchScreen.storyboard in Resources */,
+				24DB66A11EC89C060056D01A /* AudioKit (need copyright) in Resources */,
 				24DB66781EC896F50056D01A /* Assets.xcassets in Resources */,
 				24DB66761EC896F50056D01A /* Main.storyboard in Resources */,
 			);
@@ -259,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DB66731EC896F50056D01A /* ViewController.swift in Sources */,
+				24DB66731EC896F50056D01A /* RecordViewController.swift in Sources */,
 				24DB66711EC896F50056D01A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				24DB66971EC896F50056D01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24DB66981EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music TalkTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				24DB669A1EC896F50056D01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24DB669B1EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music TalkUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				24DB669D1EC896F50056D01A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
