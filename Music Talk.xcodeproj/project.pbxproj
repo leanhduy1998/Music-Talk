@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24DB66711EC896F50056D01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66701EC896F50056D01A /* AppDelegate.swift */; };
+		24DB66731EC896F50056D01A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66721EC896F50056D01A /* ViewController.swift */; };
+		24DB66761EC896F50056D01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66741EC896F50056D01A /* Main.storyboard */; };
+		24DB66781EC896F50056D01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66771EC896F50056D01A /* Assets.xcassets */; };
+		24DB667B1EC896F50056D01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DB66791EC896F50056D01A /* LaunchScreen.storyboard */; };
+		24DB66861EC896F50056D01A /* Music_TalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66851EC896F50056D01A /* Music_TalkTests.swift */; };
+		24DB66911EC896F50056D01A /* Music_TalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DB66901EC896F50056D01A /* Music_TalkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24DB66821EC896F50056D01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DB66651EC896F40056D01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DB666C1EC896F40056D01A;
+			remoteInfo = "Music Talk";
+		};
+		24DB668D1EC896F50056D01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24DB66651EC896F40056D01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24DB666C1EC896F40056D01A;
+			remoteInfo = "Music Talk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DB666D1EC896F50056D01A /* Music Talk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music Talk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB66701EC896F50056D01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24DB66721EC896F50056D01A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24DB66751EC896F50056D01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24DB66771EC896F50056D01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24DB667A1EC896F50056D01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24DB667C1EC896F50056D01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DB66811EC896F50056D01A /* Music TalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music TalkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB66851EC896F50056D01A /* Music_TalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_TalkTests.swift; sourceTree = "<group>"; };
+		24DB66871EC896F50056D01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DB668C1EC896F50056D01A /* Music TalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Music TalkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DB66901EC896F50056D01A /* Music_TalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music_TalkUITests.swift; sourceTree = "<group>"; };
+		24DB66921EC896F50056D01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DB666A1EC896F40056D01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB667E1EC896F50056D01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66891EC896F50056D01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24DB66641EC896F40056D01A = {
+			isa = PBXGroup;
+			children = (
+				24DB666F1EC896F50056D01A /* Music Talk */,
+				24DB66841EC896F50056D01A /* Music TalkTests */,
+				24DB668F1EC896F50056D01A /* Music TalkUITests */,
+				24DB666E1EC896F50056D01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24DB666E1EC896F50056D01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24DB666D1EC896F50056D01A /* Music Talk.app */,
+				24DB66811EC896F50056D01A /* Music TalkTests.xctest */,
+				24DB668C1EC896F50056D01A /* Music TalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24DB666F1EC896F50056D01A /* Music Talk */ = {
+			isa = PBXGroup;
+			children = (
+				24DB66701EC896F50056D01A /* AppDelegate.swift */,
+				24DB66721EC896F50056D01A /* ViewController.swift */,
+				24DB66741EC896F50056D01A /* Main.storyboard */,
+				24DB66771EC896F50056D01A /* Assets.xcassets */,
+				24DB66791EC896F50056D01A /* LaunchScreen.storyboard */,
+				24DB667C1EC896F50056D01A /* Info.plist */,
+			);
+			path = "Music Talk";
+			sourceTree = "<group>";
+		};
+		24DB66841EC896F50056D01A /* Music TalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				24DB66851EC896F50056D01A /* Music_TalkTests.swift */,
+				24DB66871EC896F50056D01A /* Info.plist */,
+			);
+			path = "Music TalkTests";
+			sourceTree = "<group>";
+		};
+		24DB668F1EC896F50056D01A /* Music TalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24DB66901EC896F50056D01A /* Music_TalkUITests.swift */,
+				24DB66921EC896F50056D01A /* Info.plist */,
+			);
+			path = "Music TalkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24DB666C1EC896F40056D01A /* Music Talk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB66951EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music Talk" */;
+			buildPhases = (
+				24DB66691EC896F40056D01A /* Sources */,
+				24DB666A1EC896F40056D01A /* Frameworks */,
+				24DB666B1EC896F40056D01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music Talk";
+			productName = "Music Talk";
+			productReference = 24DB666D1EC896F50056D01A /* Music Talk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24DB66801EC896F50056D01A /* Music TalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB66981EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music TalkTests" */;
+			buildPhases = (
+				24DB667D1EC896F50056D01A /* Sources */,
+				24DB667E1EC896F50056D01A /* Frameworks */,
+				24DB667F1EC896F50056D01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DB66831EC896F50056D01A /* PBXTargetDependency */,
+			);
+			name = "Music TalkTests";
+			productName = "Music TalkTests";
+			productReference = 24DB66811EC896F50056D01A /* Music TalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24DB668B1EC896F50056D01A /* Music TalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24DB669B1EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music TalkUITests" */;
+			buildPhases = (
+				24DB66881EC896F50056D01A /* Sources */,
+				24DB66891EC896F50056D01A /* Frameworks */,
+				24DB668A1EC896F50056D01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24DB668E1EC896F50056D01A /* PBXTargetDependency */,
+			);
+			name = "Music TalkUITests";
+			productName = "Music TalkUITests";
+			productReference = 24DB668C1EC896F50056D01A /* Music TalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24DB66651EC896F40056D01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andrew Le";
+				TargetAttributes = {
+					24DB666C1EC896F40056D01A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					24DB66801EC896F50056D01A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24DB666C1EC896F40056D01A;
+					};
+					24DB668B1EC896F50056D01A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24DB666C1EC896F40056D01A;
+					};
+				};
+			};
+			buildConfigurationList = 24DB66681EC896F40056D01A /* Build configuration list for PBXProject "Music Talk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24DB66641EC896F40056D01A;
+			productRefGroup = 24DB666E1EC896F50056D01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24DB666C1EC896F40056D01A /* Music Talk */,
+				24DB66801EC896F50056D01A /* Music TalkTests */,
+				24DB668B1EC896F50056D01A /* Music TalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24DB666B1EC896F40056D01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB667B1EC896F50056D01A /* LaunchScreen.storyboard in Resources */,
+				24DB66781EC896F50056D01A /* Assets.xcassets in Resources */,
+				24DB66761EC896F50056D01A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB667F1EC896F50056D01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB668A1EC896F50056D01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24DB66691EC896F40056D01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB66731EC896F50056D01A /* ViewController.swift in Sources */,
+				24DB66711EC896F50056D01A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB667D1EC896F50056D01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB66861EC896F50056D01A /* Music_TalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24DB66881EC896F50056D01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DB66911EC896F50056D01A /* Music_TalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24DB66831EC896F50056D01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DB666C1EC896F40056D01A /* Music Talk */;
+			targetProxy = 24DB66821EC896F50056D01A /* PBXContainerItemProxy */;
+		};
+		24DB668E1EC896F50056D01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24DB666C1EC896F40056D01A /* Music Talk */;
+			targetProxy = 24DB668D1EC896F50056D01A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24DB66741EC896F50056D01A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DB66751EC896F50056D01A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24DB66791EC896F50056D01A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24DB667A1EC896F50056D01A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24DB66931EC896F50056D01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24DB66941EC896F50056D01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24DB66961EC896F50056D01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Music Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLe.Music-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24DB66971EC896F50056D01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Music Talk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLe.Music-Talk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24DB66991EC896F50056D01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Music TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLe.Music-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Talk.app/Music Talk";
+			};
+			name = Debug;
+		};
+		24DB669A1EC896F50056D01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Music TalkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLe.Music-TalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Music Talk.app/Music Talk";
+			};
+			name = Release;
+		};
+		24DB669C1EC896F50056D01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Music TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLe.Music-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Music Talk";
+			};
+			name = Debug;
+		};
+		24DB669D1EC896F50056D01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Music TalkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AndrewLe.Music-TalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Music Talk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24DB66681EC896F40056D01A /* Build configuration list for PBXProject "Music Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB66931EC896F50056D01A /* Debug */,
+				24DB66941EC896F50056D01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24DB66951EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music Talk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB66961EC896F50056D01A /* Debug */,
+				24DB66971EC896F50056D01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24DB66981EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music TalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB66991EC896F50056D01A /* Debug */,
+				24DB669A1EC896F50056D01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24DB669B1EC896F50056D01A /* Build configuration list for PBXNativeTarget "Music TalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24DB669C1EC896F50056D01A /* Debug */,
+				24DB669D1EC896F50056D01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24DB66651EC896F40056D01A /* Project object */;
+}
