@@ -13,8 +13,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
     @IBOutlet weak var recordingStatusLabel: UILabel!
     @IBOutlet weak var recordBtn: UIButton!
     @IBOutlet weak var stopRecordBtn: UIButton!
-  
-    @IBOutlet weak var continueBtn: UIButton!
     
     private var audioRecorder: AVAudioRecorder!
     
@@ -30,7 +28,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
         recordBtn.isHidden = false
         stopRecordBtn.isHidden = true
         recordingStatusLabel.text = "Ready to Record"
-        continueBtn.isEnabled = false
     }
     
     override func didReceiveMemoryWarning() {
@@ -70,6 +67,8 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
         let session = AVAudioSession.sharedInstance()
         try! session.setActive(false)
         
+        performSegue(withIdentifier: "PlayViewController", sender: nil)
+        
     }
     func switchStartStopRecord(){
         if recordBtn.isHidden == true {
@@ -83,11 +82,8 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
     }
     func audioRecorderDidFinishRecording(_ recorder: AVAudioRecorder, successfully flag: Bool) {
         recordingStatusLabel.text = "Ready to Record"
-        continueBtn.isEnabled = true
     }
-    @IBAction func continueBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: "PlayViewController", sender: nil)
-    }
+
 
     
     // MARK: - Navigation

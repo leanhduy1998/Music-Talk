@@ -21,8 +21,9 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
     @IBOutlet weak var btn2: UIButton!
     @IBOutlet weak var btn3: UIButton!
     @IBOutlet weak var btn4: UIButton!
+    @IBOutlet weak var btn5: UIButton!
     
-    private enum ButtonType: Int{case bidoof=0,andrew,vader,chinese}
+    private enum ButtonType: Int{case slow=0,fast,chip,vader,echo,reverb}
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,15 +42,18 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
     }
     @IBAction func playSoundForButton(_ sender: UIButton) {
         switch(ButtonType(rawValue: sender.tag)!) {
-        case .bidoof:
-             playSound(rate: 1, pitch: -300, echo: false, reverb: true)
-        case .andrew:
-            playSound(rate: 1, pitch: 600, echo: false, reverb: false)
-        
+        case .slow:
+             playSound(rate: 0.5)
+        case .fast:
+            playSound(rate: 1.5)
+        case .chip:
+            playSound(pitch: 1000)
         case .vader:
-            playSound(rate: 0.8, pitch: -1000, echo: false, reverb: false)
-        case .chinese:
-            playSound(rate: 2, pitch: 1000, echo: true, reverb: true)
+            playSound(pitch: -1000)
+        case .echo:
+            playSound(echo: true, reverb: true)
+        case .reverb:
+            playSound(reverb: true)
         }
         
         configureUI(.playing)

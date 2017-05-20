@@ -156,7 +156,8 @@ extension PlayViewController: AVAudioPlayerDelegate {
         btn1.isEnabled = enabled
         btn2.isEnabled = enabled
         btn3.isEnabled = enabled
-        btn4.isEnabled = !enabled
+        btn4.isEnabled = enabled
+        btn5.isEnabled = enabled
     }
 
     func showAlert(_ title: String, message: String) {
