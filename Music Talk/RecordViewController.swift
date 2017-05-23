@@ -18,11 +18,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
     
     var timer : Timer?
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         recordBtn.isHidden = false
@@ -84,11 +79,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
         recordingStatusLabel.text = "Ready to Record"
     }
 
-
-    
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let destination = segue.destination as? PlayViewController {
             if audioRecorder.url.absoluteString.isEmpty || audioRecorder.url == nil {
@@ -99,8 +89,6 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
             }
             
         }
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
     
 

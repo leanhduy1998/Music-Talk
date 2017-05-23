@@ -15,6 +15,7 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
     var audioEngine:AVAudioEngine!
     var audioPlayerNode: AVAudioPlayerNode!
     var stopTimer: Timer!
+    let halfTheAmount = 0.5
     
     @IBOutlet weak var btn0: UIButton!
     @IBOutlet weak var btn1: UIButton!
@@ -24,11 +25,7 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
     @IBOutlet weak var btn5: UIButton!
     
     private enum ButtonType: Int{case slow=0,fast,chip,vader,echo,reverb}
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         setupAudio()
@@ -38,14 +35,13 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     @IBAction func playSoundForButton(_ sender: UIButton) {
         switch(ButtonType(rawValue: sender.tag)!) {
         case .slow:
-             playSound(rate: 0.5)
+             playSound(rate: Float(halfTheAmount))
         case .fast:
-            playSound(rate: 1.5)
+            playSound(rate: 1 + Float(halfTheAmount))
         case .chip:
             playSound(pitch: 1000)
         case .vader:
@@ -65,16 +61,5 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
     @IBAction func backBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
-
- 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
