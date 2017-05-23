@@ -47,7 +47,7 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
         case .vader:
             playSound(pitch: -1000)
         case .echo:
-            playSound(echo: true, reverb: true)
+            playSound(echo: true)
         case .reverb:
             playSound(reverb: true)
         }

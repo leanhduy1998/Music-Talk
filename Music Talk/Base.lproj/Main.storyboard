@@ -138,7 +138,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="8IG-eo-1HY">
                                         <rect key="frame" x="6.5" y="404.5" width="362" height="202.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-Ri-jyx">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-Ri-jyx">
                                                 <rect key="frame" x="0.0" y="11.5" width="180" height="180"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="180" id="RAt-pF-Bpd"/>
@@ -151,8 +151,11 @@
                                                         <exclude reference="sx3-7i-Pm9"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="UW1-20-Ou0" eventType="touchUpInside" id="iiu-QQ-97K"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1x-33-T5a">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1x-33-T5a">
                                                 <rect key="frame" x="182" y="11.5" width="180" height="180"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="180" id="ND1-jF-z4e"/>
@@ -165,6 +168,9 @@
                                                         <exclude reference="gZl-Zb-jtj"/>
                                                     </mask>
                                                 </variation>
+                                                <connections>
+                                                    <action selector="playSoundForButton:" destination="UW1-20-Ou0" eventType="touchUpInside" id="WAc-x6-5cV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
