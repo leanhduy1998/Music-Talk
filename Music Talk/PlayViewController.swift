@@ -30,11 +30,8 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
         super.viewWillAppear(animated)
         setupAudio()
         configureUI(.notPlaying)
+       
         
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
     }
     @IBAction func playSoundForButton(_ sender: UIButton) {
         switch(ButtonType(rawValue: sender.tag)!) {
@@ -53,13 +50,6 @@ class PlayViewController: UIViewController, AVAudioRecorderDelegate {
         }
         
         configureUI(.playing)
-    }
-    
-    @IBAction func stopButtonPressed(_ sender: AnyObject) {
-        stopAudio()
-    }
-    @IBAction func backBtnPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
     }
 
 }
